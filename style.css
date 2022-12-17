@@ -16,4 +16,22 @@ img {
 
 .hero {
   height: 100vh;
+  position: relative;
+}
+
+header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+h1 {
+    font-size: 9.5vw;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 2px;
+    color: orange;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
