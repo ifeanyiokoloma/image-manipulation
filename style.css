@@ -1,0 +1,19 @@
+/* reset  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  /* Adjust the brightness argument(%) i.e the filter property below, to fit your taste  */
+  filter: brightness(10%);
+}
+
+.hero {
+  height: 100vh;
+}
